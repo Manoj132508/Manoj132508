@@ -1,65 +1,56 @@
- 👋 Hi, I'm Manoj Palanisamy
+<div align="center">
 
-I'm a passionate **Full Stack Developer** who loves building scalable web applications and crafting clean, efficient code. I specialize in **JavaScript**, **React**, **Node.js**, and enjoy working across the full stack.
+# Manoj Palanisamy
 
----
+### Full-Stack Software Engineer · Applied AI · RAG & Agent Workflows
 
-### 🚀 Tech Stack
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manojpalanisamydev/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:manojpalanisamy46@gmail.com)
 
-#### 👨‍💻 Languages & Frameworks
+</div>
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript)
-![React](https://img.shields.io/badge/-React-20232A?style=flat-square&logo=react)
-![Next.js](https://img.shields.io/badge/-Next.js-black?style=flat-square&logo=next.js)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js)
-![Express](https://img.shields.io/badge/-Express.js-grey?style=flat-square&logo=express)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3)
-![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css)
+## About
 
-#### 🛠️ Databases & Tools
+I build full-stack web and applied AI systems with a focus on clear architecture, secure APIs, testable behaviour, and honest product boundaries.
 
-![MongoDB](https://img.shields.io/badge/-MongoDB-4EA94B?style=flat-square&logo=mongodb)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-336791?style=flat-square&logo=postgresql)
-![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
-![Visual Studio Code](https://img.shields.io/badge/-VSCode-007ACC?style=flat-square&logo=visual-studio-code)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma)
+- Full-Stack Software Engineer at **Maverick Technologies** since March 2025
+- MSc Computer Science, **University of East London** (2025)
+- Working across React and TypeScript frontends, Node.js and Python services, data systems, testing, Docker, and CI
+- Particularly interested in grounded AI, explainable decisions, and agent workflows where deterministic code keeps consequential actions under human control
 
----
+## Core stack
 
-### 💼 Projects
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
 
-Here are a few cool things I've built:
+## Selected work
 
-#### 🔹 [DevBlog](https://github.com/yourusername/devblog)  
-A full-featured blog platform with Markdown support, built with Next.js, MongoDB, and Tailwind CSS.  
-**Tech**: Next.js, MongoDB, Tailwind, Auth, SSR
+| Project | What it demonstrates | Stack |
+|---|---|---|
+| [**AI Knowledge Assistant**](https://github.com/Manoj132508/ai-) | Document Q&A with grounded streaming answers, page-level citations, retrieval thresholds, and local Ollama support | React, Express, FastAPI, MongoDB, ChromaDB, Docker |
+| [**AI Career & ATS Platform**](https://github.com/Manoj132508/ai-career-platform) | Explainable job-to-résumé matching and grounded tailoring protected by a deterministic no-fabrication gate | React, Express, FastAPI, MongoDB, sentence-transformers |
+| [**AI Support Desk**](https://github.com/Manoj132508/support-desk) | An agent workflow where the model proposes actions, while policy checks and explicit confirmation control execution | React, Express, FastAPI, MongoDB, Docker |
+| [**FinTrack**](https://github.com/Manoj132508/FinTrack) | A full-stack expense analytics dashboard with per-user accounts, budgets, reports, charts, and CSV export | React, Redux Toolkit, Chart.js, Express, SQLite |
 
-#### 🔹 [Taskify](https://github.com/yourusername/taskify)  
-A kanban-style task manager with drag-and-drop, real-time updates, and user authentication.  
-**Tech**: React, Firebase, Styled Components, Firestore
+## Engineering approach
 
-#### 🔹 [E-Commerce API](https://github.com/yourusername/ecommerce-api)  
-RESTful API for an e-commerce store, including product, order, and user management.  
-**Tech**: Node.js, Express, MongoDB, JWT
+- Put security and authorisation at explicit trust boundaries.
+- Keep scoring, policy, and permissions deterministic; use LLMs where generation is actually useful.
+- Make limitations visible in the product and documentation.
+- Record architectural trade-offs and test the behaviours that carry the most risk.
 
-#### 🔹 [Portfolio Website](https://github.com/yourusername/portfolio-site)  
-My personal portfolio site built with modern design and animation techniques.  
-**Tech**: React, Framer Motion, Tailwind CSS, Netlify
+## Contact
 
-Want to see more? Check out the [📁 pinned repositories](https://github.com/yourusername?tab=repositories).
-
----
-
-
----
-
-### 📫 Let's Connect
-
-- 🌐 Portfolio:https://brilliant-blini-dd0244.netlify.app
-- 💼 LinkedIn:https://www.linkedin.com/in/manoj-palanisamy-870b0727b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-- 📩 Email: Manojpalanisamy46@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/manojpalanisamydev/)
+- [Email](mailto:manojpalanisamy46@gmail.com)
+- [All repositories](https://github.com/Manoj132508?tab=repositories)
