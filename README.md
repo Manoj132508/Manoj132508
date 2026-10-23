@@ -4,6 +4,8 @@
 
 ### Full-Stack Software Engineer · Applied AI · RAG & Agent Workflows
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Explore_my_work-75E2BD?style=for-the-badge&logo=safari&logoColor=07110D)](https://brilliant-blini-dd0244.netlify.app/)
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manojpalanisamydev/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:manojpalanisamy46@gmail.com)
 
@@ -17,6 +19,13 @@ I build full-stack web and applied AI systems with a focus on clear architecture
 - MSc Computer Science, **University of East London** (2025)
 - Working across React and TypeScript frontends, Node.js and Python services, data systems, testing, Docker, and CI
 - Particularly interested in grounded AI, explainable decisions, and agent workflows where deterministic code keeps consequential actions under human control
+
+## Start here
+
+- **[Portfolio](https://brilliant-blini-dd0244.netlify.app/)** — a focused overview of my background, engineering principles, and selected work
+- **[AI Knowledge Assistant case study](https://github.com/Manoj132508/ai-/blob/main/docs/case-study.md)** — grounded document Q&A, citations, retrieval thresholds, and architectural trade-offs
+- **[AI Career & ATS Platform case study](https://github.com/Manoj132508/ai-career-platform/blob/main/docs/case-study.md)** — explainable matching and the deterministic no-fabrication invariant
+- **[AI Support Desk decision records](https://github.com/Manoj132508/support-desk/blob/main/docs/adr/README.md)** — policy-controlled actions, explicit confirmation, and auditable system boundaries
 
 ## Core stack
 
@@ -51,6 +60,7 @@ I build full-stack web and applied AI systems with a focus on clear architecture
 
 ## Contact
 
+- [Portfolio](https://brilliant-blini-dd0244.netlify.app/)
 - [LinkedIn](https://www.linkedin.com/in/manojpalanisamydev/)
 - [Email](mailto:manojpalanisamy46@gmail.com)
 - [All repositories](https://github.com/Manoj132508?tab=repositories)
