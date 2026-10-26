@@ -16,6 +16,8 @@ I’m a Full-Stack Software Engineer based in the United Kingdom, working at **M
 - **Python services:** FastAPI endpoints with Python type hints, Pydantic validation, asynchronous request handling and structured error responses.
 - **Database consistency:** PostgreSQL queries, `LIMIT`/`OFFSET` pagination and transactions with `COMMIT`/`ROLLBACK` for related order and inventory updates; MongoDB and Mongoose data modelling.
 - **Debugging and testing:** tracing `useEffect` dependencies, repeated requests, rendering issues and backend runtime failures using Chrome DevTools, React DevTools, VS Code Debugger, logs and Postman.
+- **AI integration:** LLM APIs, RAG-first workflows, document chunking, embeddings, retrieval debugging, response guardrails and controlled fallback behaviour through Python/FastAPI services.
+- **Delivery and performance:** Docker Compose environments, GitHub Actions CI/CD, unit and integration testing, and performance investigation across interfaces, APIs and database queries.
 
 ## Technical toolkit
 
@@ -26,8 +28,8 @@ I’m a Full-Stack Software Engineer based in the United Kingdom, working at **M
 | Backend | Node.js, Express.js, FastAPI, Pydantic, REST APIs, JWT, middleware |
 | Data | PostgreSQL, MongoDB, Mongoose, transactions, pagination, data modelling |
 | Development | Git, GitHub, Postman, Chrome DevTools, React DevTools, VS Code Debugger |
-| Delivery foundations | Docker fundamentals, development containerisation, environment configuration and CI/CD familiarity |
-| AI knowledge and project work | LLM API integration, RAG, embeddings, semantic search and vector databases |
+| Testing and delivery | Unit and integration testing, Docker, Docker Compose, GitHub Actions, CI/CD and deployment troubleshooting |
+| AI engineering | LLM API integration, RAG, embeddings, semantic search, vector databases, retrieval debugging and guardrails |
 
 ## Selected projects
 
@@ -35,10 +37,19 @@ These repositories provide examples of my project work alongside my commercial f
 
 | Project | Engineering focus | Explore |
 |---|---|---|
+| [E-commerce modernization (review branch)](https://github.com/Manoj132508/Ecommerce-project/tree/portfolio-week/ecommerce-modernization) | Staged Express/MongoDB-to-PostgreSQL modernization, versioned migrations and transactional import; **264 PostgreSQL tests** in verified CI | [Migration evidence](https://github.com/Manoj132508/Ecommerce-project/blob/portfolio-week/ecommerce-modernization/docs/portfolio-evidence.md) |
 | [FinTrack](https://github.com/Manoj132508/FinTrack) | Expense analytics with React, Redux Toolkit, Chart.js, Express and SQLite; per-user accounts, budgets, reports and CSV export | [Architecture notes](https://github.com/Manoj132508/FinTrack#-architecture-notes) |
 | [AI Knowledge Assistant](https://github.com/Manoj132508/ai-) | Document Q&A using React, Express, FastAPI, MongoDB and ChromaDB, with source citations and retrieval thresholds | [Case study](https://github.com/Manoj132508/ai-/blob/main/docs/case-study.md) |
-| [AI Career & ATS Platform](https://github.com/Manoj132508/ai-career-platform) | Explainable CV-to-job matching and grounded tailoring with checks against unsupported claims | [Case study](https://github.com/Manoj132508/ai-career-platform/blob/main/docs/case-study.md) |
-| [AI Support Desk](https://github.com/Manoj132508/support-desk) | Support workflows with knowledge retrieval, policy checks and explicit confirmation before consequential actions | [Architecture decisions](https://github.com/Manoj132508/support-desk/blob/main/docs/adr/README.md) |
+| [AI Career & ATS Platform](https://github.com/Manoj132508/ai-career-platform) | React/JavaScript, Express and FastAPI with deterministic matching and grounded tailoring; **140 passing tests** | [Architecture and CI evidence](https://github.com/Manoj132508/ai-career-platform/blob/main/docs/portfolio-evidence.md) |
+| [AI Support Desk](https://github.com/Manoj132508/support-desk) | ChromaDB retrieval, deterministic policy, explicit confirmation and Docker Compose; **871 passing tests** across API, frontend and AI layers | [Architecture and CI evidence](https://github.com/Manoj132508/support-desk/blob/main/docs/portfolio-evidence.md) |
+
+### Verified project results
+
+These results describe independent projects and specific source revisions; they are not Maverick customer or production metrics.
+
+- Support Desk: **586 Node + 151 Vitest + 134 pytest = 871 passes**, rerun locally on 26 October 2026; [matching CI run](https://github.com/Manoj132508/support-desk/actions/runs/35281304010). The separate dependency-audit workflow currently fails and is disclosed in the project README.
+- Career Platform: **55 Node + 26 Vitest + 59 pytest = 140 passes**, rerun locally on 26 October 2026; [matching CI run](https://github.com/Manoj132508/ai-career-platform/actions/runs/34167883667). The public frontend is JavaScript; a local TypeScript conversion remains in progress.
+- E-commerce: **264 PostgreSQL integration tests** at review revision `bb2944f`; [CI run](https://github.com/Manoj132508/Ecommerce-project/actions/runs/39941498302). The implementation remains staged and unmerged; a zero-downtime production cutover is not established.
 
 ## How I approach engineering
 
