@@ -1,66 +1,59 @@
-<div align="center">
-
 # Manoj Palanisamy
 
-### Full-Stack Software Engineer · Applied AI · RAG & Agent Workflows
+### Full-Stack Software Engineer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore_my_work-75E2BD?style=for-the-badge&logo=safari&logoColor=07110D)](https://brilliant-blini-dd0244.netlify.app/)
+React · TypeScript · Next.js · Node.js · Python · FastAPI
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/manojpalanisamydev/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:manojpalanisamy46@gmail.com)
+[Portfolio](https://manojdevai.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/manojpalanisamydev/) · [Email](mailto:manojpalanisamy46@gmail.com)
 
-</div>
+I’m a Full-Stack Software Engineer based in the United Kingdom, working at **Maverick Technologies since March 2025**. I develop and maintain web applications across frontend, APIs and databases, with a focus on secure application flows, reusable components and systematic debugging.
 
-## About
+## What I work on
 
-I build full-stack web and applied AI systems with a focus on clear architecture, secure APIs, testable behaviour, and honest product boundaries.
+- **Frontend development:** React, TypeScript and Next.js interfaces, reusable components and API integration with Axios.
+- **Application state:** Redux Toolkit for client state and TanStack Query for server data, caching, query invalidation and refetching.
+- **Secure APIs:** Node.js and Express.js endpoints, JWT authentication, authorisation middleware and protected routes; troubleshooting token headers and middleware failures.
+- **Python services:** FastAPI endpoints with Python type hints, Pydantic validation, asynchronous request handling and structured error responses.
+- **Database consistency:** PostgreSQL queries, `LIMIT`/`OFFSET` pagination and transactions with `COMMIT`/`ROLLBACK` for related order and inventory updates; MongoDB and Mongoose data modelling.
+- **Debugging and testing:** tracing `useEffect` dependencies, repeated requests, rendering issues and backend runtime failures using Chrome DevTools, React DevTools, VS Code Debugger, logs and Postman.
 
-- Full-Stack Software Engineer at **Maverick Technologies** since March 2025
-- MSc Computer Science, **University of East London** (2025)
-- Working across React and TypeScript frontends, Node.js and Python services, data systems, testing, Docker, and CI
-- Particularly interested in grounded AI, explainable decisions, and agent workflows where deterministic code keeps consequential actions under human control
+## Technical toolkit
 
-## Start here
+| Area | Technologies and practices |
+|---|---|
+| Languages | JavaScript, TypeScript, Python, SQL, HTML, CSS |
+| Frontend | React, Next.js, React Hooks, Redux Toolkit, TanStack Query, Axios |
+| Backend | Node.js, Express.js, FastAPI, Pydantic, REST APIs, JWT, middleware |
+| Data | PostgreSQL, MongoDB, Mongoose, transactions, pagination, data modelling |
+| Development | Git, GitHub, Postman, Chrome DevTools, React DevTools, VS Code Debugger |
+| Delivery foundations | Docker fundamentals, development containerisation, environment configuration and CI/CD familiarity |
+| AI knowledge and project work | LLM API integration, RAG, embeddings, semantic search and vector databases |
 
-- **[Portfolio](https://brilliant-blini-dd0244.netlify.app/)** — a focused overview of my background, engineering principles, and selected work
-- **[AI Knowledge Assistant case study](https://github.com/Manoj132508/ai-/blob/main/docs/case-study.md)** — grounded document Q&A, citations, retrieval thresholds, and architectural trade-offs
-- **[AI Career & ATS Platform case study](https://github.com/Manoj132508/ai-career-platform/blob/main/docs/case-study.md)** — explainable matching and the deterministic no-fabrication invariant
-- **[AI Support Desk decision records](https://github.com/Manoj132508/support-desk/blob/main/docs/adr/README.md)** — policy-controlled actions, explicit confirmation, and auditable system boundaries
+## Selected projects
 
-## Core stack
+These repositories provide examples of my project work alongside my commercial full-stack experience.
 
-<p>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
-</p>
-
-## Selected work
-
-| Project | What it demonstrates | Stack |
+| Project | Engineering focus | Explore |
 |---|---|---|
-| [**AI Knowledge Assistant**](https://github.com/Manoj132508/ai-) | Document Q&A with grounded streaming answers, page-level citations, retrieval thresholds, and local Ollama support | React, Express, FastAPI, MongoDB, ChromaDB, Docker |
-| [**AI Career & ATS Platform**](https://github.com/Manoj132508/ai-career-platform) | Explainable job-to-résumé matching and grounded tailoring protected by a deterministic no-fabrication gate | React, Express, FastAPI, MongoDB, sentence-transformers |
-| [**AI Support Desk**](https://github.com/Manoj132508/support-desk) | An agent workflow where the model proposes actions, while policy checks and explicit confirmation control execution | React, Express, FastAPI, MongoDB, Docker |
-| [**FinTrack**](https://github.com/Manoj132508/FinTrack) | A full-stack expense analytics dashboard with per-user accounts, budgets, reports, charts, and CSV export | React, Redux Toolkit, Chart.js, Express, SQLite |
+| [FinTrack](https://github.com/Manoj132508/FinTrack) | Expense analytics with React, Redux Toolkit, Chart.js, Express and SQLite; per-user accounts, budgets, reports and CSV export | [Architecture notes](https://github.com/Manoj132508/FinTrack#-architecture-notes) |
+| [AI Knowledge Assistant](https://github.com/Manoj132508/ai-) | Document Q&A using React, Express, FastAPI, MongoDB and ChromaDB, with source citations and retrieval thresholds | [Case study](https://github.com/Manoj132508/ai-/blob/main/docs/case-study.md) |
+| [AI Career & ATS Platform](https://github.com/Manoj132508/ai-career-platform) | Explainable CV-to-job matching and grounded tailoring with checks against unsupported claims | [Case study](https://github.com/Manoj132508/ai-career-platform/blob/main/docs/case-study.md) |
+| [AI Support Desk](https://github.com/Manoj132508/support-desk) | Support workflows with knowledge retrieval, policy checks and explicit confirmation before consequential actions | [Architecture decisions](https://github.com/Manoj132508/support-desk/blob/main/docs/adr/README.md) |
 
-## Engineering approach
+## How I approach engineering
 
-- Put security and authorisation at explicit trust boundaries.
-- Keep scoring, policy, and permissions deterministic; use LLMs where generation is actually useful.
-- Make limitations visible in the product and documentation.
-- Record architectural trade-offs and test the behaviours that carry the most risk.
+- Reproduce the problem, trace the request or state change, and identify the cause before changing code.
+- Keep authentication, validation, business rules and data access clear and testable.
+- Check failure paths as well as successful operations, then verify the fix against related workflows.
+- Describe AI capabilities and limitations clearly, with source evidence and controlled actions where appropriate.
 
-## Contact
+## Education
 
-- [Portfolio](https://brilliant-blini-dd0244.netlify.app/)
-- [LinkedIn](https://www.linkedin.com/in/manojpalanisamydev/)
-- [Email](mailto:manojpalanisamy46@gmail.com)
-- [All repositories](https://github.com/Manoj132508?tab=repositories)
+- **MSc Computer Science**, University of East London — 2025
+- **Bachelor of Computer Applications**, K.S. Rangasamy College of Arts and Science — 2022
+
+## Connect
+
+Interested in full-stack and backend software engineering opportunities in the UK.
+
+[Portfolio](https://manojdevai.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/manojpalanisamydev/) · [Email](mailto:manojpalanisamy46@gmail.com) · [All repositories](https://github.com/Manoj132508?tab=repositories)
