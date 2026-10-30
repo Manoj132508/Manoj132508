@@ -2,34 +2,38 @@
 
 ### Full-Stack Software Engineer
 
-React · TypeScript · Next.js · Node.js · Python · FastAPI
+React · TypeScript · Next.js · Node.js · Python · FastAPI · AWS
 
 [Portfolio](https://manojdevai.netlify.app/) · [LinkedIn](https://www.linkedin.com/in/manojpalanisamydev/) · [Email](mailto:manojpalanisamy46@gmail.com)
 
-I’m a Full-Stack Software Engineer based in the United Kingdom, working at **Maverick Technologies since March 2025**. I develop and maintain web applications across frontend, APIs and databases, with a focus on secure application flows, reusable components and systematic debugging.
+I’m a Full-Stack Software Engineer based in the United Kingdom, working at **Maverick Technologies since March 2025**. I build and maintain a **B2B AI document intelligence platform for legal and HR teams**, covering React interfaces, secure HTTP APIs, document ingestion and application data.
+
+My commercial work includes tenant-scoped PostgreSQL and ChromaDB access, document-approval transactions, JWT authentication, RAG processing and container delivery on AWS. I collaborate with a Lead Engineer, Product Manager and Customer Success; the independent repositories below provide separate public examples of my engineering work.
 
 ## What I work on
 
-- **Frontend development:** React, TypeScript and Next.js interfaces, reusable components and API integration with Axios.
-- **Application state:** Redux Toolkit for client state and TanStack Query for server data, caching, query invalidation and refetching.
-- **Secure APIs:** Node.js and Express.js endpoints, JWT authentication, authorisation middleware and protected routes; troubleshooting token headers and middleware failures.
-- **Python services:** FastAPI endpoints with Python type hints, Pydantic validation, asynchronous request handling and structured error responses.
-- **Database consistency:** PostgreSQL queries, `LIMIT`/`OFFSET` pagination and transactions with `COMMIT`/`ROLLBACK` for related order and inventory updates; MongoDB and Mongoose data modelling.
-- **Debugging and testing:** tracing `useEffect` dependencies, repeated requests, rendering issues and backend runtime failures using Chrome DevTools, React DevTools, VS Code Debugger, logs and Postman.
-- **AI integration:** LLM APIs, RAG-first workflows, document chunking, embeddings, retrieval debugging, response guardrails and controlled fallback behaviour through Python/FastAPI services.
-- **Delivery and performance:** Docker Compose environments, GitHub Actions CI/CD, unit and integration testing, and performance investigation across interfaces, APIs and database queries.
+- **Tenant isolation and access:** authenticated JWT tenant context, parameterised PostgreSQL tenant conditions and ChromaDB metadata filters in shared application services.
+- **Document ingestion:** presigned Amazon S3 URLs for direct browser uploads and background Python processing, with exponential-backoff retries for embedding API rate limits.
+- **Secure HTTP APIs:** Python/FastAPI and TypeScript/Node.js/Express, Pydantic validation, structured errors, JWT refresh handling and role-based access control.
+- **Transactional workflows:** PostgreSQL transactions and `SELECT FOR UPDATE` row locks for concurrent document approvals, including commit/rollback handling and concurrent-request checks.
+- **AI applications:** RAG, paragraph-aware recursive text splitting with LangChain, embeddings, metadata validation and retrieval using ChromaDB.
+- **Product interfaces:** React and TypeScript dashboards, TanStack Query for server state, Redux Toolkit for client state, and a Next.js marketing/onboarding portal.
+- **Testing:** Vitest and React Testing Library for frontend behaviour, pytest and mocked API interactions for Python, Jest/Supertest for Express authentication, and Postman for request investigation.
+- **Cloud and delivery:** Docker Compose for local development; Docker images in ECR and ECS tasks on EC2; GitHub Actions checks, automatic staging deployment and approval-gated production releases.
+- **Investigation and teamwork:** CloudWatch logs, Datadog dashboards, reproducible debugging, pull requests and code reviews with the engineering team.
 
 ## Technical toolkit
 
 | Area | Technologies and practices |
 |---|---|
 | Languages | JavaScript, TypeScript, Python, SQL, HTML, CSS |
-| Frontend | React, Next.js, React Hooks, Redux Toolkit, TanStack Query, Axios |
-| Backend | Node.js, Express.js, FastAPI, Pydantic, REST APIs, JWT, middleware |
-| Data | PostgreSQL, MongoDB, Mongoose, transactions, pagination, data modelling |
-| Development | Git, GitHub, Postman, Chrome DevTools, React DevTools, VS Code Debugger |
-| Testing and delivery | Unit and integration testing, Docker, Docker Compose, GitHub Actions, CI/CD and deployment troubleshooting |
-| AI engineering | LLM API integration, RAG, embeddings, semantic search, vector databases, retrieval debugging and guardrails |
+| Frontend | React, Next.js, server-side rendering, Redux Toolkit, TanStack Query, Axios |
+| Backend and access | Node.js, Express.js, FastAPI, Pydantic, HTTP/REST APIs, JWT, RBAC, tenant-scoped access |
+| Data | PostgreSQL, transactions, row locking, MongoDB, Mongoose, ChromaDB metadata filters |
+| AI applications | RAG, LangChain RecursiveCharacterTextSplitter, embeddings, vector retrieval, metadata validation, API retry handling |
+| Testing | Vitest, React Testing Library, Jest, Supertest, pytest, unittest.mock, Postman |
+| Cloud and delivery | AWS S3, ECR, ECS on EC2, Docker, Docker Compose, GitHub Actions |
+| Monitoring and collaboration | CloudWatch, Datadog, browser developer tools, Git/GitHub, code reviews, technical documentation |
 
 ## Selected projects
 
